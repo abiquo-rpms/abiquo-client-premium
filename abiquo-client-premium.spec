@@ -1,7 +1,7 @@
 %define abiquo_basedir /opt/abiquo
 
 Name:     abiquo-client-premium
-Version:  1.8
+Version:  1.8.5
 Release:  1%{?dist}%{?buildstamp}
 Summary:  Abiquo Flex Client
 Group:    Development/System 
@@ -42,6 +42,9 @@ rm -rf $RPM_BUILD_ROOT
 %{abiquo_basedir}/tomcat/webapps/ROOT
 
 %changelog
+* Fri Sep 30 2011 Sergio Rubio <srubio@abiquo.com> - 1.8.5-1
+- bumped version to 1.8.5
+
 * Mon May 23 2011 Sergio Rubio <srubio@abiquo.com> - 1.8-1
 - updated to 1.8
 
