@@ -2,7 +2,7 @@
 
 Name:     abiquo-client-premium
 Version:  1.8.5
-Release:  1%{?dist}%{?buildstamp}
+Release:  2%{?dist}%{?buildstamp}
 Summary:  Abiquo Flex Client
 Group:    Development/System 
 License:  Multiple 
@@ -42,6 +42,9 @@ rm -rf $RPM_BUILD_ROOT
 %{abiquo_basedir}/tomcat/webapps/ROOT
 
 %changelog
+* Wed Dec 21 2011 Sergio Rubio <srubio@abiquo.com> - 1.8.5-2
+- 1.8.5 HF6 update
+
 * Fri Sep 30 2011 Sergio Rubio <srubio@abiquo.com> - 1.8.5-1
 - bumped version to 1.8.5
 
